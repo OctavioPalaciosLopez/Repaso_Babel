@@ -1,0 +1,29 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src --out-dir lib "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OctavioPalaciosLopez/Repaso_Babel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OctavioPalaciosLopez/Repaso_Babel/issues"
+  },
+  "homepage": "https://github.com/OctavioPalaciosLopez/Repaso_Babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
